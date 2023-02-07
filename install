@@ -1,0 +1,23 @@
+/bin/bash -c "$(curl -fsSL https://raw.githubusercontent.com/Homebrew/install/HEAD/install.sh)" &&
+brew install zsh &&
+chsh -s /usr/local/bin/zsh &&
+git clone https://github.com/powerline/fonts &&
+cd fonts &&
+./install.sh &&
+cd .. &&
+rm -rf fonts &&
+brew install nvm &&
+nvm install 18.14.0 &&
+source ~/.zshrc &&
+brew install --cask google-chrome &&
+brew install --cask bitwarden &&
+brew install --cask slack &&
+brew install --cask iterm2 &&
+brew install --cask visual-studio-code &&
+brew install --cask webstorm &&
+brew install --cask spotify &&
+brew install --cask whatsapp &&
+brew install --cask signal &&
+brew install --cask zoom
+
+Open iTerm2->Preferences->Profiles->Change Font-> 12pt Meslo LG S DZ Regular for Powerline
