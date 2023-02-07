@@ -8,6 +8,7 @@ cd .. &&
 rm -rf fonts &&
 brew install nvm &&
 nvm install 18.14.0 &&
+nvm alias default 18.14.0 &&
 source ~/.zshrc &&
 brew install --cask google-chrome &&
 brew install --cask bitwarden &&
@@ -20,4 +21,4 @@ brew install --cask whatsapp &&
 brew install --cask signal &&
 brew install --cask zoom
 
-Open iTerm2->Preferences->Profiles->Change Font-> 12pt Meslo LG S DZ Regular for Powerline
+# Open iTerm2->Preferences->Profiles->Change Font-> 12pt Meslo LG S DZ Regular for Powerline
