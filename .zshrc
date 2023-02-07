@@ -83,8 +83,6 @@ export DEFAULT_USER=$USER
 plugins=(git)
 
 source $(brew --prefix nvm)/nvm.sh
-source $ZSH/oh-my-zsh.sh
-nvm use 18.14.0
 
 # User configuration
 
